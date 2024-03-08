@@ -10,5 +10,7 @@ import './index.css'
 // Create a new store
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
-  <React.StrictMode>{/* Use App by passing the store */}</React.StrictMode>
+  <React.StrictMode>
+    {/* Use App component to pass the store to the app */}
+  </React.StrictMode>
 )
