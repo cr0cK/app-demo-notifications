@@ -5,6 +5,7 @@ export class AlertsService {
   private _started = false
 
   constructor() {
+    // used for deterministic data generation
     seed('some-constant-seed')
   }
 
